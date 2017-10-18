@@ -27,7 +27,11 @@ Running analytics tests: As part of the delivery pipeline
 
 ## Standards
 
-Analytics team to set
+Our [global tracking doc](https://docs.google.com/a/telus.com/document/d/19oHNvnl4nLRvq_ljgDqpQq8QjhF7i0mISrLfTlC5MNc/edit?usp=sharing) specifies the general analytics each page should collect regardless of specific outcome team's needs. 
+
+Before pushing to production, analytics data needs be verified in our dev report suite, which should be fired from non-production URLs. Please confirm if data is tracked with an analyst as Adobe Analytics is configured to accept traffic based on specific domains as well as IP address. Our analysts will only then be able to verify if data collected meets the reporting criteria. 
+
+
 
 ## TODO
 
@@ -36,7 +40,7 @@ Analytics team to set
 
 ## Who
 
-- @analytics: `dataLayer` definition and schema ownership
+- @analytics: `dataLayer` definition and schema ownership . [dataLayer schema with examples](https://docs.google.com/a/telus.com/presentation/d/1HzZltv7bAJyHvZBr0W9zyX3aetpez6U2Zv3JLgfHn48/edit?usp=sharing)
 - @delivery, @developers, @qa: tooling & implementation
 
 ## References
